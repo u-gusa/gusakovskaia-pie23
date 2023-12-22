@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Лучший магазин косметики "StOrE gErLs"</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @media (max-width: 600px) {
+      .product-item {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        text-align: center;
+      }
+
+      .product-item img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Лучший магазин косметики "StOrE gErLs"</h1>
+  </header>
+
+  <main>
+    <section class="product-section">
+      <div class="product-item">
+        <h2>Sweet lipstick - 2349$</h2>
+        <img src="4.jpg" alt="Помада">
+      </div>
+      <div class="product-item">
+        <h2>Perfume - 4789$</h2>
+        <img src="2.jpg" alt="Духи">
+      </div>
+      <div class="product-item">
+        <h2>Cosmetic box - 7999$</h2>
+        <img src="3.jpg" alt="Product 3">
+      </div>
+      <div class="product-item">
+        <h2>Brushes - 5123$</h2>
+        <img src="5.jpg" alt="Product 4">
+      </div>
+    </section>
+    
+    <section class="api-section">
+      <h2>Aссортимент</h2>
+      <div id="data-container"></div>
+    </section>
+    
+    <section class="owner-section">
+      <h2>Владелец магазина "StOrE gErLs"</h2>
+      <div class="owner-info">
+        <img src="6.jpg" alt="Owner">
+        <div class="owner-details">
+          <p>Nickname:ULI</p>
+          <p>Phone number:+79234769589</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
